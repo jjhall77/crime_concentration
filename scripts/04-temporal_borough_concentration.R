@@ -344,7 +344,7 @@ yearly_results %>%
          n_incidents = comma(n_incidents)) %>%
   print(n = 200, width = Inf)
 
-write_csv(yearly_results, here("output", "concentration_by_year.csv"))
+write_csv(yearly_results, here("output", "02-tier1_temporal_borough", "concentration_by_year.csv"))
 cat("\nSaved: output/concentration_by_year.csv\n")
 
 # =============================================================================
@@ -394,7 +394,7 @@ seasonal_results %>%
          n_incidents = comma(n_incidents)) %>%
   print(n = 50, width = Inf)
 
-write_csv(seasonal_results, here("output", "concentration_seasonal_2022_2025.csv"))
+write_csv(seasonal_results, here("output", "02-tier1_temporal_borough", "concentration_seasonal_2022_2025.csv"))
 cat("\nSaved: output/concentration_seasonal_2022_2025.csv\n")
 
 # =============================================================================
@@ -437,7 +437,7 @@ quarterly_results %>%
          n_incidents = comma(n_incidents)) %>%
   print(n = 60, width = Inf)
 
-write_csv(quarterly_results, here("output", "concentration_quarterly_2022_2025.csv"))
+write_csv(quarterly_results, here("output", "02-tier1_temporal_borough", "concentration_quarterly_2022_2025.csv"))
 cat("\nSaved: output/concentration_quarterly_2022_2025.csv\n")
 
 # =============================================================================
@@ -495,7 +495,7 @@ boro_results %>%
          n_incidents = comma(n_incidents)) %>%
   print(n = 50, width = Inf)
 
-write_csv(boro_results, here("output", "concentration_by_borough_2022_2025.csv"))
+write_csv(boro_results, here("output", "02-tier1_temporal_borough", "concentration_by_borough_2022_2025.csv"))
 cat("\nSaved: output/concentration_by_borough_2022_2025.csv\n")
 
 # =============================================================================
@@ -548,7 +548,7 @@ p_yearly <- ggplot(yearly_results,
   theme_pub +
   guides(color = guide_legend(nrow = 1))
 
-ggsave(here("output", "marginal_50x_by_year.png"), p_yearly,
+ggsave(here("output", "02-tier1_temporal_borough", "marginal_50x_by_year.png"), p_yearly,
        width = 10, height = 6, dpi = 300, bg = "white")
 cat("  marginal_50x_by_year.png saved\n")
 
@@ -575,7 +575,7 @@ p_seasonal <- ggplot(seasonal_results,
   theme_pub +
   guides(color = guide_legend(nrow = 1))
 
-ggsave(here("output", "seasonal_concentration_month_of_year.png"), p_seasonal,
+ggsave(here("output", "02-tier1_temporal_borough", "seasonal_concentration_month_of_year.png"), p_seasonal,
        width = 10, height = 6, dpi = 300, bg = "white")
 cat("  seasonal_concentration_month_of_year.png saved\n")
 
@@ -608,7 +608,7 @@ p_quarterly <- ggplot(quarterly_plot_data,
   theme_pub +
   guides(color = guide_legend(nrow = 1))
 
-ggsave(here("output", "quarterly_concentration_2022_2025.png"), p_quarterly,
+ggsave(here("output", "02-tier1_temporal_borough", "quarterly_concentration_2022_2025.png"), p_quarterly,
        width = 10, height = 6, dpi = 300, bg = "white")
 cat("  quarterly_concentration_2022_2025.png saved\n")
 
@@ -646,7 +646,7 @@ p_boro <- ggplot(boro_dotplot) +
     strip.text = element_text(face = "bold", size = 11)
   )
 
-ggsave(here("output", "marginal_concentration_by_borough_2022_2025.png"), p_boro,
+ggsave(here("output", "02-tier1_temporal_borough", "marginal_concentration_by_borough_2022_2025.png"), p_boro,
        width = 12, height = 5.5, dpi = 300, bg = "white")
 cat("  marginal_concentration_by_borough_2022_2025.png saved\n")
 

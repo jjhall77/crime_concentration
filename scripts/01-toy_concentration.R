@@ -275,7 +275,7 @@ p1 <- ggplot(comparison, aes(x = lambda, y = pct_blocks_for_50pct * 100,
   ) +
   theme_pub
 
-ggsave(here::here("output", "toy_mc_vs_analytical.png"), p1,
+ggsave(here::here("output", "00-null_baseline", "toy_mc_vs_analytical.png"), p1,
        width = 8, height = 5.5, dpi = 300, bg = "white")
 
 # Plot 2: Zoomed in on the low-lambda region (where Weisburd bandwidths fall)
@@ -310,7 +310,7 @@ p2 <- ggplot(comparison_low, aes(x = lambda, y = pct_blocks_for_50pct * 100,
   ) +
   theme_pub
 
-ggsave(here::here("output", "toy_low_lambda_zoom.png"), p2,
+ggsave(here::here("output", "00-null_baseline", "toy_low_lambda_zoom.png"), p2,
        width = 8, height = 5.5, dpi = 300, bg = "white")
 
 cat("\nPlots saved to output/\n")

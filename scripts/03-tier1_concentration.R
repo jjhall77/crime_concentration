@@ -443,8 +443,8 @@ summary_yr %>%
          n_incidents = comma(n_incidents)) %>%
   print(n = 20, width = Inf)
 
-write_csv(summary_all, here("output", "tier1_concentration_summary.csv"))
-write_csv(summary_yr, here("output", "tier1_concentration_summary_single_year.csv"))
+write_csv(summary_all, here("output", "01-tier1_main", "tier1_concentration_summary.csv"))
+write_csv(summary_yr, here("output", "01-tier1_main", "tier1_concentration_summary_single_year.csv"))
 cat("\nSummaries saved to output/\n")
 
 # =============================================================================
@@ -507,7 +507,7 @@ boro_results %>%
          n_incidents = comma(n_incidents)) %>%
   print(n = 100, width = Inf)
 
-write_csv(boro_results, here("output", "tier1_boro_concentration_2021_2025.csv"))
+write_csv(boro_results, here("output", "01-tier1_main", "tier1_boro_concentration_2021_2025.csv"))
 cat("\nBorough results saved to output/tier1_boro_concentration_2021_2025.csv\n")
 
 # =============================================================================
@@ -547,7 +547,7 @@ p1 <- ggplot(lorenz_data, aes(x = pct_blocks * 100, y = pct_incidents * 100,
   theme_pub +
   guides(color = guide_legend(nrow = 4, override.aes = list(linewidth = 2)))
 
-ggsave(here("output", "lorenz_curves_by_crime_type.png"), p1,
+ggsave(here("output", "01-tier1_main", "lorenz_curves_by_crime_type.png"), p1,
        width = 10, height = 7.5, dpi = 300, bg = "white")
 cat("  lorenz_curves_by_crime_type.png saved\n")
 
@@ -577,7 +577,7 @@ p2 <- ggplot(dotplot_data) +
   theme_pub +
   theme(legend.position = "none")
 
-ggsave(here("output", "marginal_concentration_dotplot.png"), p2,
+ggsave(here("output", "01-tier1_main", "marginal_concentration_dotplot.png"), p2,
        width = 9, height = 7, dpi = 300, bg = "white")
 cat("  marginal_concentration_dotplot.png saved\n")
 
@@ -606,7 +606,7 @@ p3 <- ggplot(gini_data) +
   theme_pub +
   theme(legend.position = "none")
 
-ggsave(here("output", "gini_comparison.png"), p3,
+ggsave(here("output", "01-tier1_main", "gini_comparison.png"), p3,
        width = 9, height = 7, dpi = 300, bg = "white")
 cat("  gini_comparison.png saved\n")
 
@@ -670,7 +670,7 @@ p4 <- ggplot() +
   theme_pub +
   theme(legend.position = "none")
 
-ggsave(here("output", "observed_vs_null_curve.png"), p4,
+ggsave(here("output", "01-tier1_main", "observed_vs_null_curve.png"), p4,
        width = 10, height = 7, dpi = 300, bg = "white")
 cat("  observed_vs_null_curve.png saved\n")
 
@@ -705,7 +705,7 @@ p_boro <- ggplot(boro_dotplot_data) +
     strip.text = element_text(face = "bold", size = 8)
   )
 
-ggsave(here("output", "marginal_concentration_by_borough.png"), p_boro,
+ggsave(here("output", "01-tier1_main", "marginal_concentration_by_borough.png"), p_boro,
        width = 14, height = 12, dpi = 300, bg = "white")
 cat("  marginal_concentration_by_borough.png saved\n")
 

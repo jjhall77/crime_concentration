@@ -176,7 +176,7 @@ p <- ggplot(curve_data, aes(x = n_incidents, y = pct_blocks)) +
   ) +
   theme_pub
 
-ggsave(here::here("output", "null_concentration_curve_nyc.png"), p,
+ggsave(here::here("output", "00-null_baseline", "null_concentration_curve_nyc.png"), p,
        width = 9, height = 6, dpi = 300, bg = "white")
 
 cat("\nPlot saved to output/null_concentration_curve_nyc.png\n")
