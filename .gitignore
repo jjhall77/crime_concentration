@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+
+# Large data files
+data/
+
+# PDF literature (tracked via notes/synthesis, not raw files)
+literature/*.pdf
+literature/to_be_processed/
+literature/to_be_processed_parsed/
