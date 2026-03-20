@@ -10,7 +10,7 @@
 
 | # | File | Citation |
 |---|------|----------|
-| 1 | `02-Sherman.pdf` | Sherman, L.W. (1989). "Hot Spots of Crime and Criminal Careers of Places." Minneapolis study. |
+| 1 | `02-Sherman.pdf` | Sherman, L.W. (1995). "Hot Spots of Crime and Criminal Careers of Places." In Eck & Weisburd (Eds.), *Crime and Place* (Crime Prevention Studies, Vol. 4, pp. 35-52). |
 | 2 | `1-s2.0-S0047235222001234-main.pdf` | Spencer, M.D. & Schnell, C. (2022). "Reinvestigating Cities and the Spatial Distribution of Robbery." *Journal of Criminal Justice*, 82. |
 | 3 | `1-s2.0-S0264275124007066-main.pdf` | Tillyer, M.S., Acolin, A. & Walter, R.J. (2025). "Investment and Crime on Residential Street Segments." *Cities*, 156. |
 | 4 | `1-s2.0-S1359178924000697-main (1).pdf` | Weisburd, D., Zastrowa, T., Kuen, K. & Andresen, M.A. (2024). "Crime Concentrations at Micro Places: A Review of the Evidence." *Aggression and Violent Behavior*, 78. |

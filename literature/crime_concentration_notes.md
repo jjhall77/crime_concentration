@@ -9,36 +9,43 @@ Papers reviewed: 47
 
 ---
 
-## Sherman1989 — Hot Spots of Crime and Criminal Careers of Places
+## Sherman1995 — Hot Spots of Crime and Criminal Careers of Places
 
-**Citation:** Sherman, L. W., Gartin, P. R., & Buerger, M. E. (1989). Hot spots of predatory crime: Routine activities and the criminology of place. *Criminology*, *27*(1), 27-56.
+**Citation:** Sherman, L. W. (1995). Hot spots of crime and criminal careers of places. In J. E. Eck & D. Weisburd (Eds.), *Crime and Place* (Crime Prevention Studies, Vol. 4, pp. 35-52). Monsey, NY: Criminal Justice Press.
 
-**Journal:** *Criminology*, Vol. 27, No. 1, pp. 27-56
+**Book:** *Crime and Place* (Crime Prevention Studies, Vol. 4), pp. 35-52
 
 **Key Findings:**
-- Only 3% of places (addresses/intersections) in Minneapolis produced 50% of all police calls in 1986 (323,000 calls analyzed).
-- Crime is six times more concentrated by place than by individual offender — compared to Wolfgang's Philadelphia cohort finding that 18% of individuals produced 50% of arrests.
-- Places have "criminal careers" with dimensions analogous to individual offending: onset, recurrence, frequency, career length, intermittency, and specialization.
-- Three types of suppressors operate at different levels: guardians (protecting targets), handlers (controlling offenders), and place managers (controlling places).
-- All robbery calls came from 2.2% of addresses/intersections; all motor vehicle thefts from 2.7%; all rape calls from 1.2%.
+- Reiterates the Minneapolis finding: 3% of places produced 50% of police calls (323,000 calls, 1986). Crime is six times more concentrated by place than by individual offender (cf. Wolfgang's 18% of individuals → 50% of arrests).
+- Proposes six dimensions of **criminal careers of places**, paralleling criminal career research on individuals: (1) onset, (2) recurrence, (3) frequency, (4) career length/desistance, (5) intermittency, and (6) crime type specialization.
+- Develops routine activities theory for places via three crime controllers: **guardians** (protect targets), **handlers** (control offenders), and **place managers** (regulate place behavior) — drawn from Eck (1994) and Felson (1986).
+- Place careers can be terminated by "capital punishment" (demolition), incapacitation (seizure/boarding up), or vigilante action — but the physical structure's persistence means careers may resume with new occupants.
+- Intermittency in place careers is explained by economic conditions of place owners (Eck's "impaired immune system" analogy), changes in traffic flow, seasonal weather, and internal security changes.
+- Crime type specialization at places is theoretically predicted by rational choice (situational features structure offender choices) but evidence is mixed: disorder and predatory crimes were not highly correlated in Minneapolis, though domestic calls and residential burglary were.
+- Proposes four hypotheses for explaining crime variation at similar facilities (e.g., taverns): **patron** (who congregates there), **management** (how behavior is regulated), **behavior setting** (configuration of people, rules, space, time, objects), and **neighborhood** (contextual effects independent of patrons/management).
+- Advocates for **longitudinal cohort studies of place types** (taverns, convenience stores) as a more powerful design than whole-city analyses, holding place function constant to isolate career dimensions.
+- Policy: place-focused interventions are more tractable than offender- or community-level strategies because places are "bite-sized" and numerous enough for controlled experiments. Cites Minneapolis hot spots patrol experiment (Sherman & Weisburd, 1995), Jersey City drug market experiment (Weisburd & Green, 1995), and San Diego landlord experiment (Eck, 1995).
 
-**Methods:** Analysis of 323,000 police calls for service in Minneapolis (1986) to identify geographic concentration across offense types (robbery, sexual assault, auto theft, domestic violence). Application of routine activities theory and the crime triangle framework.
+**Methods:** Theoretical and conceptual chapter synthesizing the Minneapolis empirical findings with routine activities theory, criminal career concepts, and emerging experimental evidence. Not an empirical study — uses case illustrations (Drake Place, D.C.; Dallas hotel; Minneapolis bar) to develop the criminal careers of places framework.
 
-**Relevance:** The origin study for the crime-and-place literature. Established that places — not just individuals — concentrate crime at extreme levels, and proposed that places have "criminal careers" analogous to individual offending trajectories. This directly motivated Weisburd's later formalization of the "law of crime concentration."
+**Relevance:** The key conceptual bridge between the 1989 empirical finding and the theoretical framework that the concentration literature builds on. Goes beyond Sherman et al. (1989) by formalizing the six career dimensions, integrating Eck's place manager concept, and proposing the patron/management/behavior-setting/neighborhood hypotheses that later work tests. The "immune system" analogy for place management and the call for place-type cohort studies remain underexplored in the literature. Directly relevant to our project's questions about crime-type specificity and temporal dynamics of concentration.
 
 **Notable Quotes:**
-- "Just as Wolfgang found that 18 percent of the individuals in a birth cohort produced 52 percent of the juvenile arrests, we find that approximately 3 percent of the places produce 50 percent of calls." (p. 36)
+- "If future crime is six times more predictable by the address of the occurrence than by the identity of the offender, why aren't we doing more about it? Why aren't we thinking more about wheredunit, rather than just whodunit?" (p. 37)
 
 **BibTeX:**
 ```bibtex
-@article{sherman1989hot,
-  author    = {Sherman, Lawrence W. and Gartin, Patrick R. and Buerger, Michael E.},
-  title     = {Hot Spots of Predatory Crime: Routine Activities and the Criminology of Place},
-  journal   = {Criminology},
-  year      = {1989},
-  volume    = {27},
-  number    = {1},
-  pages     = {27--56}
+@incollection{sherman1995hot,
+  author    = {Sherman, Lawrence W.},
+  title     = {Hot Spots of Crime and Criminal Careers of Places},
+  booktitle = {Crime and Place},
+  editor    = {Eck, John E. and Weisburd, David},
+  series    = {Crime Prevention Studies},
+  volume    = {4},
+  pages     = {35--52},
+  year      = {1995},
+  publisher = {Criminal Justice Press},
+  address   = {Monsey, NY}
 }
 ```
 
