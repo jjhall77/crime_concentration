@@ -69,11 +69,11 @@ K-means clustering (k=6 plus the crime-free group) identified seven distinct tra
 | 5 | High stable | 4,088 | 4.6% | 24.1% | 6.49 |
 | 3 | Chronic-high stable | 1,125 | 1.3% | 20.7% | 20.18 |
 
-![Trajectory groups for 7 Major Felonies, 2006-2024. Each line represents the mean annual crime count for blocks in that trajectory group.](trajectory_7majors.png)
+![Trajectory groups for 7 Major Felonies, 2006-2024. Each line represents the mean annual crime count for blocks in that trajectory group.](../output/05-trajectory_analysis/trajectory_7majors.png)
 
 The trajectory plot shows the estimated developmental courses. Most groups are flat --- consistent with temporal stability. The low-increasing group (Group 2) shows a modest upward trend, while the chronic-high group maintains dramatically elevated levels throughout the period.
 
-![Distribution of blocks across trajectory groups.](trajectory_distribution_table.png)
+![Distribution of blocks across trajectory groups.](../output/05-trajectory_analysis/trajectory_distribution_table.png)
 
 ### 3. Temporal Stability Replicates
 
@@ -108,7 +108,7 @@ Instead, the trajectory distribution suggests that the crime drop was driven by 
 
 Trajectory group membership varies substantially across boroughs:
 
-![Trajectory composition by borough. Each bar shows the share of blocks in each trajectory group.](borough_trajectory_shares.png)
+![Trajectory composition by borough. Each bar shows the share of blocks in each trajectory group.](../output/05-trajectory_analysis/borough_trajectory_shares.png)
 
 Key patterns:
 
@@ -124,9 +124,9 @@ Key patterns:
 
 Annual 50-X (the percentage of blocks accounting for 50% of crime) and Gini coefficients were computed for all 19 crime categories across all 19 years, providing a 19 x 19 panel of concentration measures.
 
-![50-X concentration index over time for selected crime types. Lower values indicate greater concentration.](concentration_timeseries_50x.png)
+![50-X concentration index over time for selected crime types. Lower values indicate greater concentration.](../output/05-trajectory_analysis/concentration_timeseries_50x.png)
 
-![Gini coefficient over time for selected crime types. Higher values indicate greater concentration.](concentration_timeseries_gini.png)
+![Gini coefficient over time for selected crime types. Higher values indicate greater concentration.](../output/05-trajectory_analysis/concentration_timeseries_gini.png)
 
 Key patterns:
 
@@ -156,7 +156,7 @@ For these types, only descriptive concentration measures (50-X, Gini) over time 
 
 The remaining **16 crime types** --- including the 7 Major Felonies aggregate, robbery, felony assault, burglary, grand larceny, GLA, shootings, and 9 subtypes --- were each modeled with k-means (k=4 non-zero groups + crime-free).
 
-![Small-multiple trajectory plots for each feasible crime type.](trajectory_grid_by_type.png)
+![Small-multiple trajectory plots for each feasible crime type.](../output/05-trajectory_analysis/trajectory_grid_by_type.png)
 
 The type-specific trajectories reveal important variation:
 
@@ -169,7 +169,7 @@ The type-specific trajectories reveal important variation:
 
 Are the same blocks chronically high across different crime types, or does the "worst" set of places differ depending on the offense?
 
-![Cross-type concordance heatmap showing where blocks classified as high-crime for 7 Major Felonies fall in type-specific trajectory groups.](cross_type_concordance.png)
+![Cross-type concordance heatmap showing where blocks classified as high-crime for 7 Major Felonies fall in type-specific trajectory groups.](../output/05-trajectory_analysis/cross_type_concordance.png)
 
 The concordance analysis reveals partial but imperfect overlap. Blocks in the chronic-high trajectory for 7 Major Felonies (Group 3, N=1,125) were disproportionately likely to be in the highest groups for individual types, but the correspondence is not one-to-one. For example:
 
@@ -185,7 +185,7 @@ This partial concordance suggests that chronic hot spots are driven by a *mix* o
 
 A central claim of the micro-place literature is that crime varies dramatically within neighborhoods --- that "good blocks" exist adjacent to "bad blocks." Following Groff, Weisburd, and Yang (2010), adjacent-block trajectory heterogeneity was assessed using k=6 nearest neighbors (centroid-based, since physical blocks are line geometries rather than polygons).
 
-![Neighbor trajectory heterogeneity by group. Each box shows the distribution of the percentage of a block's neighbors that are in a different trajectory group.](spatial_heterogeneity.png)
+![Neighbor trajectory heterogeneity by group. Each box shows the distribution of the percentage of a block's neighbors that are in a different trajectory group.](../output/05-trajectory_analysis/spatial_heterogeneity.png)
 
 On average, **62.7%** of a block's six nearest neighbors were in a different trajectory group. For blocks in the chronic-high group specifically, **77.7%** of neighbors followed a different trajectory. Even the most dangerous blocks in the city are typically surrounded by blocks with very different crime profiles.
 
@@ -197,7 +197,7 @@ This confirms the micro-place thesis: crime concentration operates at a finer sp
 
 ## Citywide Map
 
-![Map of New York City with each physical block colored by its 7 Major Felony trajectory group.](trajectory_map_7majors.png)
+![Map of New York City with each physical block colored by its 7 Major Felony trajectory group.](../output/05-trajectory_analysis/trajectory_map_7majors.png)
 
 The map reveals the spatial distribution of trajectory groups across the city. Chronic-high blocks (red) are concentrated in Manhattan's commercial corridors and select areas of the Bronx and Brooklyn, while crime-free blocks (light colors) dominate Staten Island, eastern Queens, and residential neighborhoods throughout the outer boroughs. The visual confirms the heterogeneity finding: even within visually "hot" areas, blocks of different trajectory types are interspersed.
 
