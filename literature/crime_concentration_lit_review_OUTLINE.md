@@ -80,8 +80,26 @@ Across all these studies, the core pattern holds: a small percentage of places g
 ### What varies:
 The degree of concentration differs by crime type (violent crime tends to concentrate more than property crime), by unit of analysis (addresses show more concentration than street segments, which show more than neighborhoods), and by city (though the range is narrower than critics sometimes suggest). Temporal scale matters less than spatial scale.
 
-### The stability question:
-Weisburd's trajectory work says the pattern is stable over years. Levin et al. say the *level* of concentration is stable but the *specific places* shift. Walter et al. find substantial but not complete stability. The emerging picture: concentration as a structural feature is durable, but the geography of specific hot spots is more fluid than the aggregate statistics suggest.
+### The stability question — trajectory analysis:
+This is where GBTM (group-based trajectory modeling) becomes central. Weisburd et al. (2004) pioneered the application of GBTM to street segments in Seattle (14 years), finding 84% of segments followed stable trajectories and that the crime drop was driven by a small subset of declining micro-places, not uniform citywide decline. This has been replicated extensively:
+
+- **Groff, Weisburd & Yang (2010)** — Applied GBTM to Seattle street segments, finding distinct trajectory groups including chronic-high segments that are spatially heterogeneous: high-crime streets frequently sit adjacent to low-crime streets. This "good streets in bad neighborhoods" finding undermines purely ecological explanations. [IN FOLDER: to_be_processed_parsed/s10940-009-9081-y.md]
+
+- **Curman, Andresen & Brantingham (2015)** — Replicated in Vancouver. Compared GBTM with k-means clustering and found qualitatively equivalent results. K-means produced more parsimonious groupings. Both methods identified stable trajectory groups. [IN FOLDER: to_be_processed_parsed/s10940-014-9228-3.md]
+
+- **Wheeler, Worden & McLean (2016)** — Albany. Used GBTM at the street segment level. Found spatial heterogeneity consistent with Groff et al. — neighboring segments often diverge dramatically in trajectory. [IN FOLDER: to_be_processed_parsed/s10940-015-9268-3.md]
+
+- **Payne & Gallagher (2016)** — Cincinnati. Applied GBTM at the address level (even finer grain than street segments). Found 2.5% of addresses in the chronic-high trajectory accounted for roughly one-third of all crime. [IN FOLDER: to_be_processed_parsed/633-the-importance-of-small-units-of-aggregation...md]
+
+- **Andresen, Curman & Linning (2017)** — Extended Vancouver analysis with spatial point pattern tests, confirming trajectory group stability. [IN FOLDER: to_be_processed_parsed/s10940-016-9301-1.md]
+
+- **Luo (2026)** — Replicated GBTM across 12 U.S. cities simultaneously. Confirmed the finding is not city-specific: most places follow stable trajectories, with a small chronic-high group accounting for disproportionate crime. [IN FOLDER: to_be_processed_parsed/s10940-026-09656-8 (1).md]
+
+- **Nagin & Odgers (2010)** — Methodological guide to GBTM: recommends posterior probability ≥ 0.7 per group as the adequacy criterion for assignment quality. Nagin (2005) cautions that "the objective is not to identify the 'true' number of groups." [IN FOLDER: to_be_processed_parsed/annurev.clinpsy.121208.131413.md]
+
+- **Nagin, Jones, Passos & Tremblay (2018)** — Multi-trajectory modeling extension, allowing joint trajectory groups across multiple outcome types simultaneously. [IN FOLDER: to_be_processed_parsed/nagin-et-al-2016-group-based-multi-trajectory-modeling.md]
+
+The emerging picture from trajectory analysis: concentration as a structural feature is highly durable — 70-85% of places follow stable trajectories. The crime drop is not uniform but driven by a small subset of declining micro-places. Chronic-high places (typically 1-3% of units) account for 20-50% of crime and persist across decades. But the *specific places* do shift to some degree (Levin et al., Walter et al.), and adjacent places can follow completely different trajectories (Groff et al., Wheeler et al.).
 
 ### The generalizability question:
 Does the ~5%/~50% ratio actually hold, or is it a rough heuristic? Weisburd et al. (2024) say the bandwidth is narrow (IQR 3.2%–5.7%). Hipp & Kim (2017) say it varies more than that. The honest answer: the finding is robust as a central tendency, contested at the margins, and potentially inflated by measurement choices (see Section 5).
@@ -210,11 +228,12 @@ This section should feel forward-looking without being speculative. Each candida
 |---------|--------|
 | 1. The Finding | Sherman; Weisburd et al. (2024) review |
 | 2. Roots | Farrell (cpcs.2015.17); Jacobs foreshadowed via Díaz et al. |
-| 3. Evidence | Schnell/Braga/Piza (Chicago); Haberman et al. (temporal); O'Brien/Winship (Boston); Levin et al. (St. Louis); Hipp/Kim (SoCal); Walter et al. (6 cities); Spencer (dissertation); Spencer/Schnell (8 cities); Andresen/Linning/Malleson (Vancouver) |
+| 3. Evidence — Cross-sectional | Schnell/Braga/Piza (Chicago); Haberman et al. (temporal); O'Brien/Winship (Boston); Levin et al. (St. Louis); Hipp/Kim (SoCal); Walter et al. (6 cities); Spencer (dissertation); Spencer/Schnell (8 cities); Andresen/Linning/Malleson (Vancouver) |
+| 3. Evidence — Trajectory analysis | Weisburd et al. (2004, Seattle); Groff et al. (2010, Seattle spatial); Curman et al. (2015, Vancouver GBTM vs k-means); Wheeler et al. (2016, Albany); Payne & Gallagher (2016, Cincinnati addresses); Andresen et al. (2017, Vancouver SPP); Luo (2026, 12 cities); Nagin & Odgers (2010, GBTM methods); Nagin et al. (2018, multi-trajectory) |
 | 4. Doesn't Tell You | O'Brien/Ciomek (multi-scale); Schnell/DeWitt/Spencer (neighborhoods); O'Brien/Ciomek/Tucker (concentration as neighborhood characteristic); Díaz et al. (eyes on the street) |
 | 5. Measurement | Chalfin et al.; Bernasco/Steenbeek; Andresen/Weisburd (metrics); Hipp/Kim; Eck et al. ("compared to what"); Taylor et al. (311 calls) |
 | 6. Policy | Police Concentration preprint; Tillyer et al. (investment) |
-| 7. Frontier | Weekly concentration (Prieto Curiel); Schnell/DeWitt/Spencer; Tillyer et al.; Díaz et al. |
+| 7. Frontier | Weekly concentration (Prieto Curiel); Schnell/DeWitt/Spencer; Tillyer et al.; Díaz et al.; multi-trajectory modeling (Nagin et al. 2018) |
 
 ### Recurring themes to thread throughout:
 - **The tension between empirical regularity and theoretical explanation.** The finding is strong; the theory is weak.

@@ -1,0 +1,432 @@
+maj7_group,ct_group,n,crime_type
+0,0,20006,Robbery
+1,0,700,Robbery
+1,1,142,Robbery
+1,2,6727,Robbery
+1,3,3748,Robbery
+2,0,20215,Robbery
+2,2,8319,Robbery
+2,3,12,Robbery
+3,1,342,Robbery
+3,2,27,Robbery
+3,3,156,Robbery
+3,4,600,Robbery
+4,0,65,Robbery
+4,1,1284,Robbery
+4,2,1752,Robbery
+4,3,4085,Robbery
+4,4,3,Robbery
+5,0,10,Robbery
+5,1,2174,Robbery
+5,2,345,Robbery
+5,3,1274,Robbery
+5,4,285,Robbery
+6,0,4351,Robbery
+6,1,1,Robbery
+6,2,11596,Robbery
+6,3,1073,Robbery
+0,0,20006,Felony assault
+1,0,739,Felony assault
+1,1,6606,Felony assault
+1,2,100,Felony assault
+1,3,3872,Felony assault
+2,0,19097,Felony assault
+2,1,9440,Felony assault
+2,3,9,Felony assault
+3,0,2,Felony assault
+3,1,43,Felony assault
+3,2,309,Felony assault
+3,3,161,Felony assault
+3,4,610,Felony assault
+4,0,135,Felony assault
+4,1,1899,Felony assault
+4,2,1474,Felony assault
+4,3,3677,Felony assault
+4,4,4,Felony assault
+5,0,23,Felony assault
+5,1,515,Felony assault
+5,2,1827,Felony assault
+5,3,1147,Felony assault
+5,4,576,Felony assault
+6,0,3935,Felony assault
+6,1,12277,Felony assault
+6,3,809,Felony assault
+0,0,20006,Burglary
+1,0,583,Burglary
+1,1,5152,Burglary
+1,2,2671,Burglary
+1,3,30,Burglary
+1,4,2881,Burglary
+2,0,14714,Burglary
+2,1,12328,Burglary
+2,2,1492,Burglary
+2,4,12,Burglary
+3,0,5,Burglary
+3,1,86,Burglary
+3,2,72,Burglary
+3,3,666,Burglary
+3,4,296,Burglary
+4,0,127,Burglary
+4,1,1815,Burglary
+4,2,1220,Burglary
+4,3,535,Burglary
+4,4,3492,Burglary
+5,0,28,Burglary
+5,1,495,Burglary
+5,2,393,Burglary
+5,3,1393,Burglary
+5,4,1779,Burglary
+6,0,2454,Burglary
+6,1,10925,Burglary
+6,2,2935,Burglary
+6,4,707,Burglary
+0,0,20006,Grand larceny
+1,0,8,Grand larceny
+1,1,6433,Grand larceny
+1,2,4729,Grand larceny
+1,4,147,Grand larceny
+2,0,7739,Grand larceny
+2,2,20807,Grand larceny
+3,1,33,Grand larceny
+3,2,2,Grand larceny
+3,3,724,Grand larceny
+3,4,366,Grand larceny
+4,1,4953,Grand larceny
+4,2,488,Grand larceny
+4,4,1748,Grand larceny
+5,1,1101,Grand larceny
+5,2,8,Grand larceny
+5,3,499,Grand larceny
+5,4,2480,Grand larceny
+6,0,339,Grand larceny
+6,1,1485,Grand larceny
+6,2,15197,Grand larceny
+0,0,20006,GLA
+1,0,850,GLA
+1,1,5363,GLA
+1,2,629,GLA
+1,3,2319,GLA
+1,4,2156,GLA
+2,0,15258,GLA
+2,1,10232,GLA
+2,3,1665,GLA
+2,4,1391,GLA
+3,0,61,GLA
+3,1,244,GLA
+3,2,535,GLA
+3,3,168,GLA
+3,4,117,GLA
+4,0,436,GLA
+4,1,2688,GLA
+4,2,1179,GLA
+4,3,1622,GLA
+4,4,1264,GLA
+5,0,197,GLA
+5,1,1123,GLA
+5,2,1344,GLA
+5,3,814,GLA
+5,4,610,GLA
+6,0,2732,GLA
+6,1,9098,GLA
+6,2,96,GLA
+6,3,2596,GLA
+6,4,2499,GLA
+0,0,20006,Robbery (outdoor)
+1,0,1399,Robbery (outdoor)
+1,1,6743,Robbery (outdoor)
+1,2,1356,Robbery (outdoor)
+1,3,13,Robbery (outdoor)
+1,4,1806,Robbery (outdoor)
+2,0,21488,Robbery (outdoor)
+2,1,6408,Robbery (outdoor)
+2,4,650,Robbery (outdoor)
+3,0,6,Robbery (outdoor)
+3,1,143,Robbery (outdoor)
+3,2,371,Robbery (outdoor)
+3,3,545,Robbery (outdoor)
+3,4,60,Robbery (outdoor)
+4,0,261,Robbery (outdoor)
+4,1,3044,Robbery (outdoor)
+4,2,2487,Robbery (outdoor)
+4,3,199,Robbery (outdoor)
+4,4,1198,Robbery (outdoor)
+5,0,56,Robbery (outdoor)
+5,1,926,Robbery (outdoor)
+5,2,1977,Robbery (outdoor)
+5,3,671,Robbery (outdoor)
+5,4,458,Robbery (outdoor)
+6,0,5921,Robbery (outdoor)
+6,1,9208,Robbery (outdoor)
+6,2,291,Robbery (outdoor)
+6,4,1601,Robbery (outdoor)
+0,0,20006,Felony assault (outdoor)
+1,0,2539,Felony assault (outdoor)
+1,1,530,Felony assault (outdoor)
+1,2,1457,Felony assault (outdoor)
+1,3,6791,Felony assault (outdoor)
+2,0,23476,Felony assault (outdoor)
+2,2,463,Felony assault (outdoor)
+2,3,4607,Felony assault (outdoor)
+3,0,9,Felony assault (outdoor)
+3,1,340,Felony assault (outdoor)
+3,2,102,Felony assault (outdoor)
+3,3,113,Felony assault (outdoor)
+3,4,561,Felony assault (outdoor)
+4,0,590,Felony assault (outdoor)
+4,1,1926,Felony assault (outdoor)
+4,2,1195,Felony assault (outdoor)
+4,3,3433,Felony assault (outdoor)
+4,4,45,Felony assault (outdoor)
+5,0,118,Felony assault (outdoor)
+5,1,1904,Felony assault (outdoor)
+5,2,540,Felony assault (outdoor)
+5,3,1031,Felony assault (outdoor)
+5,4,495,Felony assault (outdoor)
+6,0,8235,Felony assault (outdoor)
+6,1,49,Felony assault (outdoor)
+6,2,1005,Felony assault (outdoor)
+6,3,7732,Felony assault (outdoor)
+0,0,19334,Street assault
+0,1,1,Street assault
+0,3,671,Street assault
+1,0,543,Street assault
+1,1,4006,Street assault
+1,2,2,Street assault
+1,3,6415,Street assault
+1,4,351,Street assault
+2,0,16936,Street assault
+2,1,133,Street assault
+2,3,11477,Street assault
+3,1,96,Street assault
+3,2,688,Street assault
+3,3,20,Street assault
+3,4,321,Street assault
+4,0,50,Street assault
+4,1,3690,Street assault
+4,2,58,Street assault
+4,3,1678,Street assault
+4,4,1713,Street assault
+5,0,7,Street assault
+5,1,1182,Street assault
+5,2,609,Street assault
+5,3,303,Street assault
+5,4,1987,Street assault
+6,0,3484,Street assault
+6,1,1491,Street assault
+6,3,12022,Street assault
+6,4,24,Street assault
+0,0,20006,Residential burglary
+1,0,2217,Residential burglary
+1,1,75,Residential burglary
+1,2,2397,Residential burglary
+1,3,2019,Residential burglary
+1,4,4609,Residential burglary
+2,0,17607,Residential burglary
+2,2,44,Residential burglary
+2,3,1207,Residential burglary
+2,4,9688,Residential burglary
+3,0,174,Residential burglary
+3,1,358,Residential burglary
+3,2,225,Residential burglary
+3,3,130,Residential burglary
+3,4,238,Residential burglary
+4,0,1057,Residential burglary
+4,1,601,Residential burglary
+4,2,2222,Residential burglary
+4,3,1155,Residential burglary
+4,4,2154,Residential burglary
+5,0,498,Residential burglary
+5,1,1069,Residential burglary
+5,2,1042,Residential burglary
+5,3,521,Residential burglary
+5,4,958,Residential burglary
+6,0,5043,Residential burglary
+6,2,1004,Residential burglary
+6,3,2242,Residential burglary
+6,4,8732,Residential burglary
+0,0,20006,Commercial burglary
+1,0,6193,Commercial burglary
+1,1,755,Commercial burglary
+1,2,3527,Commercial burglary
+1,3,762,Commercial burglary
+1,4,80,Commercial burglary
+2,0,26191,Commercial burglary
+2,1,211,Commercial burglary
+2,2,1948,Commercial burglary
+2,3,196,Commercial burglary
+3,0,81,Commercial burglary
+3,1,144,Commercial burglary
+3,2,370,Commercial burglary
+3,3,124,Commercial burglary
+3,4,406,Commercial burglary
+4,0,2671,Commercial burglary
+4,1,655,Commercial burglary
+4,2,2797,Commercial burglary
+4,3,795,Commercial burglary
+4,4,271,Commercial burglary
+5,0,835,Commercial burglary
+5,1,538,Commercial burglary
+5,2,1677,Commercial burglary
+5,3,564,Commercial burglary
+5,4,474,Commercial burglary
+6,0,12596,Commercial burglary
+6,1,564,Commercial burglary
+6,2,3362,Commercial burglary
+6,3,487,Commercial burglary
+6,4,12,Commercial burglary
+0,0,19940,Retail theft
+0,1,66,Retail theft
+1,0,8132,Retail theft
+1,1,2752,Retail theft
+1,2,79,Retail theft
+1,3,1,Retail theft
+1,4,353,Retail theft
+2,0,27683,Retail theft
+2,1,854,Retail theft
+2,4,9,Retail theft
+3,0,193,Retail theft
+3,1,411,Retail theft
+3,2,144,Retail theft
+3,3,157,Retail theft
+3,4,220,Retail theft
+4,0,4021,Retail theft
+4,1,2348,Retail theft
+4,2,200,Retail theft
+4,3,12,Retail theft
+4,4,608,Retail theft
+5,0,1651,Retail theft
+5,1,1483,Retail theft
+5,2,336,Retail theft
+5,3,81,Retail theft
+5,4,537,Retail theft
+6,0,14910,Retail theft
+6,1,1987,Retail theft
+6,2,13,Retail theft
+6,4,111,Retail theft
+0,0,19588,Vehicle accessory theft
+0,2,112,Vehicle accessory theft
+0,3,68,Vehicle accessory theft
+0,4,238,Vehicle accessory theft
+1,0,3676,Vehicle accessory theft
+1,1,238,Vehicle accessory theft
+1,2,1605,Vehicle accessory theft
+1,3,1312,Vehicle accessory theft
+1,4,4486,Vehicle accessory theft
+2,0,19572,Vehicle accessory theft
+2,1,7,Vehicle accessory theft
+2,2,1732,Vehicle accessory theft
+2,3,1296,Vehicle accessory theft
+2,4,5939,Vehicle accessory theft
+3,0,378,Vehicle accessory theft
+3,1,161,Vehicle accessory theft
+3,2,136,Vehicle accessory theft
+3,3,123,Vehicle accessory theft
+3,4,327,Vehicle accessory theft
+4,0,2273,Vehicle accessory theft
+4,1,311,Vehicle accessory theft
+4,2,1006,Vehicle accessory theft
+4,3,950,Vehicle accessory theft
+4,4,2649,Vehicle accessory theft
+5,0,1240,Vehicle accessory theft
+5,1,270,Vehicle accessory theft
+5,2,590,Vehicle accessory theft
+5,3,530,Vehicle accessory theft
+5,4,1458,Vehicle accessory theft
+6,0,6779,Vehicle accessory theft
+6,1,94,Vehicle accessory theft
+6,2,2087,Vehicle accessory theft
+6,3,1696,Vehicle accessory theft
+6,4,6365,Vehicle accessory theft
+0,0,18710,Theft from auto
+0,1,1174,Theft from auto
+0,2,1,Theft from auto
+0,4,121,Theft from auto
+1,0,192,Theft from auto
+1,1,4581,Theft from auto
+1,2,3632,Theft from auto
+1,3,215,Theft from auto
+1,4,2697,Theft from auto
+2,0,8562,Theft from auto
+2,1,16832,Theft from auto
+2,2,194,Theft from auto
+2,3,3,Theft from auto
+2,4,2955,Theft from auto
+3,0,15,Theft from auto
+3,1,143,Theft from auto
+3,2,417,Theft from auto
+3,3,439,Theft from auto
+3,4,111,Theft from auto
+4,0,102,Theft from auto
+4,1,1893,Theft from auto
+4,2,3410,Theft from auto
+4,3,558,Theft from auto
+4,4,1226,Theft from auto
+5,0,46,Theft from auto
+5,1,700,Theft from auto
+5,2,2091,Theft from auto
+5,3,772,Theft from auto
+5,4,479,Theft from auto
+6,0,809,Theft from auto
+6,1,10322,Theft from auto
+6,2,1786,Theft from auto
+6,3,28,Theft from auto
+6,4,4076,Theft from auto
+0,0,20006,Pickpocket (non-transit)
+1,0,9415,Pickpocket (non-transit)
+1,1,1704,Pickpocket (non-transit)
+1,3,10,Pickpocket (non-transit)
+1,4,188,Pickpocket (non-transit)
+2,0,28250,Pickpocket (non-transit)
+2,1,285,Pickpocket (non-transit)
+2,4,11,Pickpocket (non-transit)
+3,0,128,Pickpocket (non-transit)
+3,1,416,Pickpocket (non-transit)
+3,2,128,Pickpocket (non-transit)
+3,3,314,Pickpocket (non-transit)
+3,4,139,Pickpocket (non-transit)
+4,0,4517,Pickpocket (non-transit)
+4,1,2266,Pickpocket (non-transit)
+4,2,1,Pickpocket (non-transit)
+4,3,48,Pickpocket (non-transit)
+4,4,357,Pickpocket (non-transit)
+5,0,1511,Pickpocket (non-transit)
+5,1,1956,Pickpocket (non-transit)
+5,2,7,Pickpocket (non-transit)
+5,3,189,Pickpocket (non-transit)
+5,4,425,Pickpocket (non-transit)
+6,0,16071,Pickpocket (non-transit)
+6,1,878,Pickpocket (non-transit)
+6,4,72,Pickpocket (non-transit)
+0,0,19986,Shootings
+0,1,17,Shootings
+0,3,1,Shootings
+0,4,2,Shootings
+1,0,8775,Shootings
+1,1,1875,Shootings
+1,2,9,Shootings
+1,3,422,Shootings
+1,4,236,Shootings
+2,0,27829,Shootings
+2,1,545,Shootings
+2,3,101,Shootings
+2,4,71,Shootings
+3,0,441,Shootings
+3,1,259,Shootings
+3,2,227,Shootings
+3,3,109,Shootings
+3,4,89,Shootings
+4,0,4398,Shootings
+4,1,1886,Shootings
+4,2,57,Shootings
+4,3,521,Shootings
+4,4,327,Shootings
+5,0,1858,Shootings
+5,1,1164,Shootings
+5,2,258,Shootings
+5,3,497,Shootings
+5,4,311,Shootings
+6,0,15322,Shootings
+6,1,1306,Shootings
+6,2,1,Shootings
+6,3,251,Shootings
+6,4,141,Shootings

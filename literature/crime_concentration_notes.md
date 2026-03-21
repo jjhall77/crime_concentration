@@ -1637,3 +1637,251 @@ Papers reviewed: 47
 ```
 
 ---
+
+# VIII. TRAJECTORY ANALYSIS AND TEMPORAL DYNAMICS OF PLACES
+
+---
+
+## GroffWeisburdYang2010 — Street to Street Variability in Crime Trajectories (Seattle)
+
+**Citation:** Groff, E. R., Weisburd, D., & Yang, S.-M. (2010). Is it important to examine crime trends at a local "micro" level?: A longitudinal analysis of street to street variability in crime trajectories. *Journal of Quantitative Criminology*, *26*, 7-32.
+
+**Journal:** *Journal of Quantitative Criminology*, Vol. 26, pp. 7-32
+
+**Key Findings:**
+- Applied trajectory analysis to 24,023 street segments in Seattle over 16 years (1989-2004), identifying 22 trajectory groups collapsed into 8 patterns: crime free (49.5%), low stable (32%), low decreasing (9.2%), low increasing (3.8%), moderate stable (1.2%), high decreasing (2.4%), high increasing (0.9%), and chronic high (1.0%).
+- In a surprising number of cases, individual street segments have trajectories which are unrelated to their immediately adjacent streets — significant street-to-street heterogeneity.
+- Used Ripley's K-function and bivariate K-function to quantify spatial relationships. High-crime trajectories showed greatest spatial clustering; crime-free and low-stable segments were most uniformly distributed.
+- "Bad neighborhoods" contain "good streets" and vice versa.
+
+**Methods:** 1,697,212 crime incident reports (1989-2004) for 24,023 street segments in Seattle. GBTM then Ripley's K-function and bivariate K-function for spatial pattern analysis.
+
+**Relevance:** First study to systematically examine the spatial distribution of temporal crime trajectories. Demonstrates that adjacent segments can follow completely different trajectories, justifying the micro-place focus.
+
+**BibTeX:**
+```bibtex
+@article{groff2010important,
+  author    = {Groff, Elizabeth R. and Weisburd, David and Yang, Sue-Ming},
+  title     = {Is It Important to Examine Crime Trends at a Local ``Micro'' Level?},
+  journal   = {Journal of Quantitative Criminology},
+  year      = {2010},
+  volume    = {26},
+  pages     = {7--32}
+}
+```
+
+---
+
+## CurmanAndresenBrantingham2015 — Vancouver Street Segment Trajectories
+
+**Citation:** Curman, A. S. N., Andresen, M. A., & Brantingham, P. J. (2015). Crime and place: A longitudinal examination of street segment patterns in Vancouver, BC. *Journal of Quantitative Criminology*, *31*, 127-147.
+
+**Journal:** *Journal of Quantitative Criminology*, Vol. 31, pp. 127-147
+
+**Key Findings:**
+- First replication of Weisburd et al. (2004) outside Seattle. 16 years (1991-2006) of Vancouver calls-for-service.
+- Majority of street blocks showed stable crime trends; a minority revealed decreasing trends. Unlike Seattle, no increasing trajectories.
+- 7.8% of segments accounted for 60% of crime. Crime drop (-40%) was more widespread than Seattle's but still driven by a small percentage of segments.
+- K-means alternative to GBTM produced more parsimonious groups with qualitatively similar results.
+
+**Methods:** 1+ million crime reports (1991-2006) at the street segment level. GBTM (zero-inflated Poisson via Proc Traj) and k-means non-parametric cluster analysis.
+
+**Relevance:** Demonstrates that the Seattle trajectory findings generalize to a Canadian city. The k-means alternative offers a methodological advance for datasets violating GBTM distributional assumptions.
+
+**BibTeX:**
+```bibtex
+@article{curman2015crime,
+  author    = {Curman, Andrea S. N. and Andresen, Martin A. and Brantingham, Paul J.},
+  title     = {Crime and Place: A Longitudinal Examination of Street Segment Patterns in {Vancouver}, {BC}},
+  journal   = {Journal of Quantitative Criminology},
+  year      = {2015},
+  volume    = {31},
+  pages     = {127--147}
+}
+```
+
+---
+
+## WheelerWordenMcLean2016 — Replicating Trajectory Models in Albany, NY
+
+**Citation:** Wheeler, A. P., Worden, R. E., & McLean, S. J. (2016). Replicating group-based trajectory models of crime at micro-places in Albany, NY. *Journal of Quantitative Criminology*, *32*, 589-612.
+
+**Journal:** *Journal of Quantitative Criminology*, Vol. 32, pp. 589-612
+
+**Key Findings:**
+- Replicated GBTM in Albany, NY (2000-2013) — smaller, northeastern city different from Seattle/Vancouver.
+- Eight trajectory groups identified; all followed the overall citywide decline, separated only by mean crime level.
+- 24% of street segments accounted for 87% of the crime drop.
+- Higher-crime trajectory groups showed more spatial clustering than reported in Seattle.
+
+**Methods:** ~190,000 crimes (2000-2013) at street segments and intersections. Zero-inflated Poisson GBTM. Pin maps, Ripley's K, and neighbor transition matrices.
+
+**Relevance:** Extends trajectory replication to a smaller, different-character city. Confirms generalizability while noting Albany's uniform decline pattern differs from Seattle's mixed trajectories.
+
+**BibTeX:**
+```bibtex
+@article{wheeler2016replicating,
+  author    = {Wheeler, Andrew P. and Worden, Robert E. and McLean, Sarah J.},
+  title     = {Replicating Group-Based Trajectory Models of Crime at Micro-Places in {Albany}, {NY}},
+  journal   = {Journal of Quantitative Criminology},
+  year      = {2016},
+  volume    = {32},
+  pages     = {589--612}
+}
+```
+
+---
+
+## PayneGallagher2016 — Trajectories of Crime at Addresses in Cincinnati
+
+**Citation:** Payne, T. C. & Gallagher, K. (2016). The importance of small units of aggregation: Trajectories of crime at addresses in Cincinnati, Ohio, 1998-2012. *Criminology, Criminal Justice, Law & Society*, *17*(1), 20-36.
+
+**Journal:** *Criminology, Criminal Justice, Law & Society*, Vol. 17, No. 1, pp. 20-36
+
+**Key Findings:**
+- Applied GBTM at the **address level** — the smallest unit used in any trajectory study — across 125,226 addresses in Cincinnati over 15 years (1998-2012).
+- Six trajectories: low-stable (58.3%), two increasing (16.7%, 6.6%), two decreasing (12.3%, 3.6%), and high-stable (2.5%).
+- The high-stable trajectory comprises just 2.5% of addresses yet consistently accounts for one-third of all crime.
+- Places with very different trajectories often located on the same street segment — high-crime addresses exist among "clouds" of low-crime places.
+- Retail and large apartment complexes (40+ units) overrepresented in highest-crime trajectory.
+
+**Methods:** 2,247,751 police incidents (1998-2012) at 125,226 addresses. Zero-inflated Poisson GBTM via Stata traj. Spatial analysis with ArcGIS.
+
+**Relevance:** Pushes the trajectory framework to the finest geographic resolution. Demonstrates that street segments mask important variation at the address level.
+
+**BibTeX:**
+```bibtex
+@article{payne2016importance,
+  author    = {Payne, Troy C. and Gallagher, Kathleen},
+  title     = {The Importance of Small Units of Aggregation: Trajectories of Crime at Addresses in {Cincinnati}, {Ohio}, 1998--2012},
+  journal   = {Criminology, Criminal Justice, Law \& Society},
+  year      = {2016},
+  volume    = {17},
+  number    = {1},
+  pages     = {20--36}
+}
+```
+
+---
+
+## AndresenCurmanLinning2017b — Trajectories of Disaggregated Crime Types in Vancouver
+
+**Citation:** Andresen, M. A., Curman, A. S., & Linning, S. J. (2017). The trajectories of crime at places: Understanding the patterns of disaggregated crime types. *Journal of Quantitative Criminology*, *33*, 427-449.
+
+**Journal:** *Journal of Quantitative Criminology*, Vol. 33, pp. 427-449
+
+**Key Findings:**
+- First trajectory study to examine disaggregated crime types (assault, burglary, robbery, theft, theft of/from vehicle, other, total) on street segments and intersections in Vancouver.
+- LCC holds for all individual crime types: highly concentrated regardless of type, most trajectories stable.
+- Concentration varies significantly by type: assault (1.62% of segments for 50%), burglary (7.61%), robbery (0.84%), theft (2.58%), theft of vehicle (5.97%).
+- Notable differences across crime types need to be considered for theory and policy.
+
+**Methods:** 16 years of police-recorded crime data for eight crime types in Vancouver. K-means trajectory analysis.
+
+**Relevance:** Directly addresses the crime-type aggregation problem. Shows that aggregate indices mask important heterogeneity in spatial patterns.
+
+**BibTeX:**
+```bibtex
+@article{andresen2017trajectories,
+  author    = {Andresen, Martin A. and Curman, Andrea S. and Linning, Shannon J.},
+  title     = {The Trajectories of Crime at Places: Understanding the Patterns of Disaggregated Crime Types},
+  journal   = {Journal of Quantitative Criminology},
+  year      = {2017},
+  volume    = {33},
+  pages     = {427--449}
+}
+```
+
+---
+
+## Luo2026 — Crime Trajectories Across 12 U.S. Cities
+
+**Citation:** Luo, X. I. (2026). Examining crime trajectories at micro geographic locations across varied urban contexts in the U.S. *Journal of Quantitative Criminology*. https://doi.org/10.1007/s10940-026-09656-8
+
+**Journal:** *Journal of Quantitative Criminology* (online first, 2026)
+
+**Key Findings:**
+- Most comprehensive multi-city trajectory study: 12 U.S. cities (Seattle, San Antonio, Memphis, LA, Scottsdale, Riverside, Minneapolis, Akron, Asheville, Reading, Santa Monica, Diamond Bar), 297,199 street segments, 2010-2018.
+- Cities stratified by size, growth, and employment presence — first study to systematically vary city context.
+- Crime concentration confirmed across all 12 cities: 50% of violent crime in 0.3-4.3% of segments; 50% of property crime in 0.9-6.1%.
+- Seven violent and seven property crime trajectories. Majority of segments crime-free (68.9% violent, 27.1% property).
+- City context shapes trajectories: segments in large/stagnant cities more likely to follow higher-crime trajectories.
+
+**Methods:** Part I UCR data (2010-2018) from NICS. GBTM via Stata traj. Logit for violent crime; censored normal for logged property crime.
+
+**Relevance:** Broadest and most recent test of trajectory generalizability. Concentration is universal; trajectory dynamics vary by city characteristics.
+
+**BibTeX:**
+```bibtex
+@article{luo2026examining,
+  author    = {Luo, Xiaoshuang Iris},
+  title     = {Examining Crime Trajectories at Micro Geographic Locations Across Varied Urban Contexts in the {U.S.}},
+  journal   = {Journal of Quantitative Criminology},
+  year      = {2026},
+  doi       = {10.1007/s10940-026-09656-8}
+}
+```
+
+---
+
+## NaginOdgers2010 — Group-Based Trajectory Modeling in Clinical Research
+
+**Citation:** Nagin, D. S. & Odgers, C. L. (2010). Group-based trajectory modeling in clinical research. *Annual Review of Clinical Psychology*, *6*, 109-138.
+
+**Journal:** *Annual Review of Clinical Psychology*, Vol. 6, pp. 109-138
+
+**Key Findings:**
+- Nontechnical overview of GBTM and growth mixture modeling (GMM).
+- GBTM treats groups as approximations of a continuous distribution; GMM allows within-group variation.
+- Model selection guidelines: BIC for number of groups (not sole criterion); posterior probabilities ≥0.7 for adequate classification.
+- Cautions against reifying groups as "real" distinct entities — trajectory groups are statistical approximations.
+- Extensions: predictors of group membership, time-varying covariates, treatment effects, dual trajectory modeling.
+
+**Methods:** Methodological review with clinical demonstrations (aggression, obesity, anxiety, substance use).
+
+**Relevance:** Primary methodological reference for GBTM as used in all place-based trajectory studies. Essential for understanding assumptions, limitations, and best practices.
+
+**BibTeX:**
+```bibtex
+@article{nagin2010group,
+  author    = {Nagin, Daniel S. and Odgers, Candice L.},
+  title     = {Group-Based Trajectory Modeling in Clinical Research},
+  journal   = {Annual Review of Clinical Psychology},
+  year      = {2010},
+  volume    = {6},
+  pages     = {109--138}
+}
+```
+
+---
+
+## NaginJonesPassosTremblay2018 — Group-Based Multi-Trajectory Modeling
+
+**Citation:** Nagin, D. S., Jones, B. L., Passos, V. L., & Tremblay, R. E. (2018). Group-based multi-trajectory modeling. *Statistical Methods in Medical Research*, *27*(7), 2015-2023.
+
+**Journal:** *Statistical Methods in Medical Research*, Vol. 27, No. 7, pp. 2015-2023
+
+**Key Findings:**
+- Extends GBTM to simultaneous modeling of multiple outcomes — "multi-trajectory modeling."
+- Defines trajectory groups by vectors of trajectories for J outcomes, avoiding the proliferation of conditional probability tables in dual trajectory models.
+- Demonstrated with physiological measurements (blood pressure, lung capacity, BMI) across ages 3-38.
+- The likelihood function is a straightforward generalization of the basic GBTM.
+
+**Methods:** Formal derivation of the multi-trajectory likelihood function. Model selection via BIC. Two demonstration examples.
+
+**Relevance:** Provides the methodological foundation for analyzing multiple crime types simultaneously in a trajectory framework — directly relevant to the crime-type specificity gap in the concentration literature.
+
+**BibTeX:**
+```bibtex
+@article{nagin2018group,
+  author    = {Nagin, Daniel S. and Jones, Bobby L. and Passos, Val{\'e}ria Lima and Tremblay, Richard E.},
+  title     = {Group-Based Multi-Trajectory Modeling},
+  journal   = {Statistical Methods in Medical Research},
+  year      = {2018},
+  volume    = {27},
+  number    = {7},
+  pages     = {2015--2023}
+}
+```
+
+---
