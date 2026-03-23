@@ -34,6 +34,20 @@ The foundational literature on crime concentration at micro-places is primarily 
 
 - Demonstrated that gun violence concentration at micro-places in Boston was remarkably stable over nearly three decades.
 
+### Methodological Critiques of Group-Based Trajectory Modeling
+
+**Skardhamar, T. (2010).** Distinguishing facts and artifacts in group-based modeling. *Criminology*, 48(1), 295–320.
+
+- Simulation study generating longitudinal data with no true groups (only continuous heterogeneity and state dependence), then fitting SPGM/GBTM. Found that the method consistently recovered seemingly distinct trajectory groups. Standard diagnostics (AvePP > 0.7, OCC > 5) were satisfied in most simulations. Group-specific effects of a covariate with a true uniform effect appeared statistically different across groups. Concludes that GBTM cannot provide evidence for or against the existence of distinct subpopulations; groups should be treated as data reduction constructs, not real types.
+
+**Erosheva, E.A., Matsueda, R.L., & Telesca, D. (2014).** Breaking bad: Two decades of life-course data analysis in criminology, developmental psychology, and beyond. *Annual Review of Statistics and Its Application*, 1, 301–332.
+
+- Comprehensive review of GBTM and growth mixture models. Found that in 8 of 9 studies that plotted individual trajectories within groups, within-group variability was high relative to between-group differences, suggesting groups approximate a continuum rather than reflecting discrete types. The number of groups recovered is sensitive to study design (time span, observation frequency, outcome variable). Introduced unimodal curve registration (UCR) as an alternative that avoids categorical mixture representation. Recommended plotting individual trajectories within groups and treating groups as approximations rather than entities.
+
+**Bauer, D.J. & Curran, P.J. (2003).** Distributional assumptions of growth mixture models: Implications for overextraction of latent trajectory classes. *Psychological Methods*, 8(3), 338–363.
+
+- Showed via simulation that mild nonnormality in outcomes can cause mixture models to extract spurious groups even when only one true group exists. Group-specific covariate effects can be seriously distorted. Concludes that identifying multiple classes as optimal does not indicate population heterogeneity any more than a significant correlation indicates causation.
+
 ### Spatial Point Pattern Test
 
 **Andresen, M.A. (2009).** Testing for similarity in area-based spatial patterns: A nonparametric Monte Carlo approach. *Applied Geography*, 29(3), 333–345.

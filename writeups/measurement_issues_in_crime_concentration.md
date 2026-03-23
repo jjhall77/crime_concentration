@@ -167,7 +167,48 @@ The sparse-data problem and the Eck challenge are related. A Poisson process —
 
 ---
 
-## 8. The Bandwidth Question
+## 8. Trajectory Group Reification
+
+### The Problem
+
+Group-based trajectory modeling (GBTM) is the standard method for studying temporal stability and change in crime concentration at micro-places. But the groups it produces are not necessarily real — they may be discrete approximations of continuous heterogeneity rather than evidence of distinct place types.
+
+### The Simulation Evidence
+
+Skardhamar (2010) generated longitudinal data with no true groups — only gamma-distributed heterogeneity and state dependence — and showed that GBTM consistently recovered multiple "distinct" trajectory groups that passed standard diagnostics (AvePP > 0.7, OCC > 5). Even group-specific covariate effects appeared statistically different across groups, despite the true effect being uniform. The implication: trajectory groups that "emerge from the data" in an exploratory search are equally consistent with general (continuous) and taxonomic (discrete) data-generating processes. GBTM cannot distinguish between the two.
+
+### The Within-Group Variability Problem
+
+Erosheva, Matsueda, and Telesca (2014) reviewed over 200 applications of trajectory mixture models. Of 9 studies that plotted individual trajectories within groups, 8 showed within-group variability exceeding between-group differences — meaning individual trajectories overlapped extensively across groups. The groups served as trajectories of support for an underlying continuum, not as distinct clusters. Yet almost no applied researchers acknowledged this, and standard graphical presentations (group mean trajectories only) mask the overlap entirely.
+
+### Why This Matters for Crime Concentration
+
+The trajectory literature on crime at places (Weisburd et al., 2004; Curman et al., 2015; Wheeler et al., 2016) relies on GBTM to identify "chronic hot spots," "declining places," and "stable low-crime" segments. If these groups are constructs of the method rather than natural kinds, then:
+
+1. The percentage of places classified as "chronic" depends on the number of groups fitted and the polynomial specification, not on a natural boundary in the data.
+2. Claims about the stability of specific trajectory groups may conflate temporal persistence (which is real) with categorical distinctness (which may be artifact).
+3. Policy recommendations targeting "chronic-high" places assume that these places are qualitatively different from "high-stable" or "moderate-declining" places, when they may simply occupy different positions along a continuous distribution of crime propensity.
+
+### Recommended Practices
+
+Following Erosheva et al. (2014) and Bauer and Curran (2004):
+
+- Plot individual trajectories within groups to assess separation.
+- Compare results across different numbers of groups and functional forms to test sensitivity.
+- Treat groups as data reduction tools for summarizing patterns, not as evidence of discrete place types.
+- Consider continuous alternatives: random effects models, unimodal curve registration (Telesca et al., 2012), or empirical Bayes shrinkage (Chalfin et al., 2021).
+
+### References
+
+Bauer, D. J. & Curran, P. J. (2003). Distributional assumptions of growth mixture models. *Psychological Methods*, 8(3), 338–363.
+
+Erosheva, E. A., Matsueda, R. L., & Telesca, D. (2014). Breaking bad: Two decades of life-course data analysis in criminology, developmental psychology, and beyond. *Annual Review of Statistics and Its Application*, 1, 301–332.
+
+Skardhamar, T. (2010). Distinguishing facts and artifacts in group-based modeling. *Criminology*, 48(1), 295–320.
+
+---
+
+## 9. The Bandwidth Question
 
 ### What Counts as "Narrow"?
 
@@ -187,7 +228,7 @@ Andresen and Weisburd (2025) acknowledge that both 50-X and 5-X are biased when 
 
 ---
 
-## 9. Summary: What We Know and What Remains Uncertain
+## 10. Summary: What We Know and What Remains Uncertain
 
 **Established:**
 - Crime does concentrate dramatically at micro-places. This is a robust empirical regularity confirmed across dozens of cities worldwide.

@@ -227,6 +227,20 @@ The foundational findings from Seattle replicate in New York City at scale:
 
 4. **Physical blocks as a spatial unit.** This is the first trajectory analysis at the physical block level, contributing to the growing evidence that concentration findings are robust across spatial definitions (street segments, addresses, grid cells, physical blocks).
 
+### Methodological Caveats: The GBTM Critique Literature
+
+The trajectory groups reported here should be interpreted as convenient summaries of continuous heterogeneity, not as evidence of discrete "types" of places. A substantial methodological literature warns against reifying trajectory groups:
+
+**Skardhamar (2010)** demonstrated through simulation that SPGM/GBTM recovers seemingly distinct trajectory groups even from data generated with no true groups --- where continuous heterogeneity and state dependence alone produce the observed patterns. Standard diagnostics (AvePP > 0.7, OCC > 5) were satisfied in a majority of simulations despite the absence of real groups. Worse, group-specific covariate effects appeared statistically different across groups even though the true effect was uniform. The implication: trajectory groups "emerge from the data" in a trivially true sense, but this does not constitute evidence that the groups reflect discrete underlying processes.
+
+**Erosheva, Matsueda, and Telesca (2014)** reviewed two decades of GBTM and growth mixture modeling in criminology and psychology. Their key findings: (1) within-group variability is typically high relative to between-group differences --- in 8 of 9 studies that plotted individual trajectories within groups, individual variability swamped group separation; (2) the number of groups recovered is sensitive to study design features (observation frequency, time span, outcome type) rather than reflecting stable population structure; (3) researchers routinely discard groups that differ only in level or timing, biasing results toward the conclusion that groups are distinct. They recommend treating trajectory groups as "approximations of a more complex reality" and plotting individual trajectories within groups to assess separation.
+
+**Bauer and Curran (2003, 2004)**, cited extensively in the above reviews, showed that mild nonnormality in outcomes can cause mixture models to extract spurious groups, and that group-specific predictor effects can be distorted when groups are artifacts of distributional misspecification.
+
+**Implications for this analysis.** Our use of k-means rather than parametric GBTM partially sidesteps some concerns (k-means makes no distributional assumptions), but the fundamental problem applies to any discrete clustering of continuous data. The 62.7% spatial heterogeneity finding --- blocks in the same neighborhood assigned to different groups --- could reflect either genuine micro-level variation or the discretization of a smooth spatial gradient. The TODO items (neighborhood trajectory distribution analysis and Chalfin sparse-data correction) directly address these concerns.
+
+For this study, trajectory groups are best understood as a data reduction tool for summarizing longitudinal patterns, not as evidence of discrete place types with distinct causal mechanisms.
+
 ### Limitations
 
 1. Physical blocks are not identical to street segments. Direct comparison of group percentages across studies requires caution.
@@ -238,6 +252,8 @@ The foundational findings from Seattle replicate in New York City at scale:
 4. Murder, rape, and transit pickpocket are too sparse at the block-annual level for trajectory modeling.
 
 5. Crime data reflect reported/recorded incidents. Reporting rates vary by crime type and may shift over time, potentially confounding trajectory shapes.
+
+6. Trajectory groups are discrete approximations of continuous heterogeneity (Skardhamar, 2010; Erosheva et al., 2014). Group boundaries are analytic constructs, not natural kinds.
 
 ---
 

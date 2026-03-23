@@ -9,5 +9,19 @@ data/
 
 # PDF literature (tracked via notes/synthesis, not raw files)
 literature/*.pdf
+literature/01_*/
+literature/02_*/
+literature/03_*/
+literature/04_*/
+literature/05_*/
+literature/06_*/
+literature/07_*/
+literature/08_*/
+literature/09_*/
 literature/to_be_processed/
 literature/to_be_processed_parsed/
+literature/*.crdownload
+
+# Word temp files
+writeups/~$*
+~$*

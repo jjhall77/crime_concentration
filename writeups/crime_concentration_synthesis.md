@@ -109,7 +109,7 @@ Taylor et al. (2024) demonstrate that 311 calls lack discriminant validity — t
 | **Poisson-Gamma (negative binomial) estimation** | Mohler et al. (2019), Amemiya & Ohyama (2019) | Parametric approach to estimating concentration that reduces sparse-data bias. Uses the continuous Gamma distribution. |
 | **Difference-in-differences** | Diaz et al. (2025) | Quasi-experimental design exploiting temporal variation (market schedules) to estimate causal effects of place characteristics on crime. |
 | **Randomization-based counterfactual** | Chalfin et al. (2021), Gao & Andresen (2025) | Simulates random distribution of crimes across places to establish what concentration would look like by chance alone. |
-| **Trajectory analysis (GBTM)** | Weisburd et al. (2004), Referenced in Andresen et al. (2017), Levin et al. (2017) | Group-based trajectory modeling to classify places into distinct crime-level trajectories over time. Weisburd et al. (2004) identified 18 trajectory groups using Poisson model and BIC in SAS Proc Traj. |
+| **Trajectory analysis (GBTM)** | Weisburd et al. (2004), Referenced in Andresen et al. (2017), Levin et al. (2017) | Group-based trajectory modeling to classify places into distinct crime-level trajectories over time. Weisburd et al. (2004) identified 18 trajectory groups using Poisson model and BIC in SAS Proc Traj. **Caution:** Skardhamar (2010) showed via simulation that GBTM recovers seemingly distinct groups even from data with no true groups. Erosheva et al. (2014) found within-group variability typically exceeds between-group differences. Groups should be treated as data reduction, not evidence of discrete place types. |
 | **Systematic review / meta-analysis** | Braga (2001), Braga et al. (2019) | Campbell Collaboration protocol for synthesizing hot spots policing evidence. Braga et al. (2019) used random effects models across 65 studies (78 tests). |
 | **Remote systematic social observation (RSSO)** | Connealy & Toman (2025) | Uses Google Street View to assess environmental characteristics of hot spots longitudinally. |
 
@@ -213,5 +213,11 @@ Harm-weighted concentration — the frontier argument that not all crimes are eq
 
 7. **Nagin, D. S. & Land, K. C. (1993). "Age, Criminal Careers, and Population Heterogeneity." *Criminology*, 31(3), 327-362.**
 The group-based trajectory modeling methodology used by Weisburd et al. (2004, now in corpus) and subsequent trajectory studies of crime at places.
+
+8. **Skardhamar, T. (2010). "Distinguishing Facts and Artifacts in Group-Based Modeling." *Criminology*, 48(1), 295-320.**
+Simulation study demonstrating GBTM recovers distinct groups from data with no true groups. Essential methodological caveat for all trajectory analyses of crime at places.
+
+9. **Erosheva, E. A., Matsueda, R. L., & Telesca, D. (2014). "Breaking Bad: Two Decades of Life-Course Data Analysis in Criminology, Developmental Psychology, and Beyond." *Annual Review of Statistics and Its Application*, 1, 301-332.**
+Comprehensive review of GBTM and growth mixture models. Finds within-group variability typically exceeds between-group differences. Introduces unimodal curve registration as an alternative. Key reference for interpreting trajectory results.
 
 *Note: Nine previously missing references — Weisburd (2015), Weisburd et al. (2004), Cohen & Felson (1979), Steenbeek & Weisburd (2016), Braga et al. (2019), Braga (2001), Groff et al. (2015), Clarke (1995), and Andresen (2006) — have been added to the main corpus.*
